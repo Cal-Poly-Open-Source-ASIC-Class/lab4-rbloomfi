@@ -1,0 +1,20 @@
+{
+    "DESIGN_NAME": "fifo",
+    "VERILOG_FILES": "dir::rtl/*.sv",
+    "CLOCK_PERIOD": 10,
+    "FP_PDN_SKIPTRIM": true,
+    "RUN_POST_GRT_RESIZER_TIMING": true,
+    "RUN_POST_GRT_DESIGN_REPAIR": true,
+    "SYNTH_AUTONAME": true,
+
+
+
+
+ "CLOCK_PORT": ["clk_r", "clk_w"],
+
+
+
+ "PNR_SDC_FILE": "constraints.sdc",
+ "SIGNOFF_SDC_FILE": "constraints.sdc"
+
+}
